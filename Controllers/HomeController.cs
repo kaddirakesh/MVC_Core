@@ -37,5 +37,10 @@ namespace First_Core.Controllers
             }
             return View(model);
         }
+
+        public IActionResult Create()
+        {
+            return View();
+        }
     }
 }
